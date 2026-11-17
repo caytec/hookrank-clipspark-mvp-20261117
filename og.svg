@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">HookRank by ClipSpark</title>
+  <desc id="desc">A demo preview for finding strong moments in talking-head videos.</desc>
+  <rect width="1200" height="630" fill="#0b1020"/>
+  <circle cx="1030" cy="90" r="260" fill="#8b7cff" opacity=".25"/>
+  <text x="90" y="260" fill="#ffffff" font-family="Arial, sans-serif" font-size="78px" font-weight="700">HookRank</text>
+  <text x="94" y="345" fill="#a99fff" font-family="Arial, sans-serif" font-size="38px">by ClipSpark</text>
+  <text x="94" y="450" fill="#cbd2e8" font-family="Arial, sans-serif" font-size="30px">Find your strongest moments before you publish.</text>
+</svg>
