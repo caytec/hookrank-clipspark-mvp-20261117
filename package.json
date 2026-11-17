@@ -1,0 +1,14 @@
+{
+  "name": "hookrank-clipspark-mvp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Pages-compatible HookRank demo with a disabled production API boundary",
+  "scripts": {
+    "dev": "vercel dev",
+    "validate": "node scripts/validate-site.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
