@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HookRank by ClipSpark | Demo Video Hook Analyzer</title>
+  <meta name="description" content="Upload a podcast or talking-head video for a clearly labeled HookRank demo preview. Production clip processing is not enabled in this static demo.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://clipspark.github.io/hookrank/">
+  <link rel="icon" href="./og.svg" type="image/svg+xml">
+
+  <meta property="og:title" content="HookRank by ClipSpark">
+  <meta property="og:description" content="Explore a transparent demo preview for podcast and talking-head video hooks.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://clipspark.github.io/hookrank/">
+  <meta property="og:site_name" content="HookRank by ClipSpark">
+  <meta property="og:image" content="https://clipspark.github.io/hookrank/og.svg">
+  <meta property="og:image:alt" content="HookRank by ClipSpark demo preview">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HookRank by ClipSpark">
+  <meta name="twitter:description" content="Explore a transparent demo preview for podcast and talking-head video hooks.">
+  <meta name="twitter:image" content="https://clipspark.github.io/hookrank/og.svg">
+  <meta name="twitter:image:alt" content="HookRank by ClipSpark demo preview">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "HookRank by ClipSpark",
+    "url": "https://clipspark.github.io/hookrank/",
+    "description": "A browser demo preview for evaluating podcast and talking-head video hook signals.",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Web browser",
+    "browserRequirements": "Requires JavaScript and a modern browser",
+    "image": "https://clipspark.github.io/hookrank/og.svg",
+    "provider": {
+      "@type": "Organization",
+      "name": "ClipSpark"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="wrap top">
+    <a class="brand" href="./">HookRank <span>by ClipSpark</span></a>
+    <nav aria-label="Primary">
+      <a href="./privacy.html">Privacy</a>
+      <a href="./terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Transparent browser demo</p>
+      <h1 id="page-title">Find your strongest moments before you publish.</h1>
+      <p class="lead">Select a podcast or talking-head video to create a clearly labeled synthetic HookRank demo preview. This static Pages-compatible demo does not upload, transcribe, render, or download video clips.</p>
+      <div class="notice" role="note">
+        Demo mode is active. The preview is not based on your video and does not represent production AI analysis.
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="upload-title">
+      <h2 id="upload-title">Create a demo preview</h2>
+      <p class="help">Accepted browser hints: MP4, MOV, or WebM · up to 500 MB · up to 20 minutes</p>
+
+      <label class="drop" for="video">
+        <strong>Choose a video</strong>
+        <span>Your file stays in this browser and is not uploaded by demo mode.</span>
+        <input id="video" name="video" type="file" accept="video/mp4,video/quicktime,video/webm,.mp4,.mov,.webm">
+      </label>
+
+      <div class="actions">
+        <button id="run" type="button" disabled>Create demo preview</button>
+        <button id="cancel" type="button" class="secondary" hidden>Cancel</button>
+      </div>
+
+      <p id="status" class="status" role="status" aria-live="polite">Select a video to begin.</p>
+      <div id="error" class="error" role="alert" hidden></div>
+      <div id="results" class="results" hidden></div>
+    </section>
+
+    <section class="grid" aria-label="How the product is intended to work">
+      <article>
+        <b>1. Upload</b>
+        <p>Choose a video you have permission to use.</p>
+      </article>
+      <article>
+        <b>2. Discover</b>
+        <p>Production processing will use transcripts to identify candidate moments.</p>
+      </article>
+      <article>
+        <b>3. Publish</b>
+        <p>Production output is intended to include captions, downloads, and social copy.</p>
+      </article>
+    </section>
+
+    <section class="faq" aria-labelledby="about-title">
+      <h2 id="about-title">What is HookRank?</h2>
+      <p>HookRank is intended to be a transparent content-strength score based on openings, clarity, usefulness, curiosity, emotion, quotability, and clip boundaries. It is not a prediction of actual performance.</p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <small>© 2026 ClipSpark. Demo preview only. Results are synthetic suggestions, not guarantees.</small>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
